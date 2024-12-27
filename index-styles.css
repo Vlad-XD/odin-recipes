@@ -1,11 +1,31 @@
 * {
-  font-family: "Arial","Verdana", sans-serif;;
+  font-family: "Arial","Verdana", sans-serif;
+  box-sizing: border-box;
 }
 
 .heading {
   background: lightpink;
 }
 
-ul {
-  list-style-type: "\1F374";
+.recipe-row {
+  background-color: lightpink;
+  display: block;
 }
+
+.recipe-container {
+  background-color: white;
+  border: 3px solid rgb(185, 52, 72);
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.recipe-container-child{
+  margin:auto;
+  display:block;
+  text-align: center;
+}
+
